@@ -1,6 +1,6 @@
 {
   "name": "compilecache",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Simple memory cache for compiled files and recompiles when source file changes.",
   "main": "index.js",
   "scripts": {
