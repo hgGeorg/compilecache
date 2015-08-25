@@ -31,3 +31,5 @@ app.get('/js/:filename', function(req, res, next) {
 });
 
 ```
+### Caveats
+compilecache uses [Node fs.watch](https://nodejs.org/api/fs.html#fs_fs_watch_filename_options_listener) and therefor is unable to recursively watch directories.
