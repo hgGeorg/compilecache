@@ -1,6 +1,6 @@
 {
   "name": "compilecache",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Simple memory cache for compiled files and recompiles when source file changes.",
   "main": "index.js",
   "scripts": {
@@ -26,5 +26,8 @@
   "homepage": "https://github.com/hgGeorg/compilecache#readme",
   "devDependencies": {
     "iced-coffee-script": "^108.0.7"
+  },
+  "dependencies": {
+    "iced-runtime": "^1.0.2"
   }
 }
