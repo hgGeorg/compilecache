@@ -1,0 +1,12 @@
+{
+    "indentation": {
+        "value" : 4
+    },
+    "max_line_length": {
+        "level": "warn",
+        "value": 120
+    },
+    "no_interpolation_in_single_quotes": {
+        "level": "warn"
+    }
+}

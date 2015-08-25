@@ -1,0 +1,30 @@
+{
+  "name": "compilecache",
+  "version": "0.0.0",
+  "description": "Simple memory cache for compiled files and recompiles when source file changes.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prepublish": "./node_modules/.bin/iced -c -o lib/ src/",
+    "postpublish": "git push"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/hgGeorg/compilecache.git"
+  },
+  "keywords": [
+    "cache",
+    "compile",
+    "memory",
+    "watcher"
+  ],
+  "author": "Georg Huang",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/hgGeorg/compilecache/issues"
+  },
+  "homepage": "https://github.com/hgGeorg/compilecache#readme",
+  "devDependencies": {
+    "iced-coffee-script": "^108.0.7"
+  }
+}
